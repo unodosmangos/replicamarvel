@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navBar{
+    display: flex;
+    background: rgb(3, 3, 36);
+    padding: 15px 100px;
+}
+#logomarvel{
+    height: 26px;
+    width: 65px;
+}
+.uxButtons{
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.styleSlider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.styleSlider img{
+    width: 80%;
+}
+.infoBox{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 313px 313px 313px 313px;
+    gap: 10px;
+    justify-content: center;
+}
+#styleBox{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+#styleBox p{
+    padding: 5px 0;
+    padding-right: 50px;
+}
+#styleBox h3{
+    width: 100%;
+    text-align: left !important; 
+}
+#styleImage{
+    width: 100%;
+}
+.newsBox{
+    display: flex;
+    flex-direction: column;
+}
+#intensamentePic{
+    height: 35px;
+    width: 65px;
+}
+#newsBox1{
+    display: flex;
+}
+.box1{
+    grid-column: 1/2;
+    grid-row: 1;
+}
+.box2{
+    grid-column: 2/3;
+    grid-row: 1;
+}
+.box3{
+    grid-column: 1/2;
+    grid-row: 2;
+}
+.box4{
+    grid-column: 2/3;
+    grid-row: 2;
+}
+.box5{
+    grid-column: 1/2;
+    grid-row: 3;
+}
+.box6{
+    grid-column: 2/3;
+    grid-row: 3;
+}
+.box7{
+    grid-column: 1/2;
+    grid-row: 4;
+}
