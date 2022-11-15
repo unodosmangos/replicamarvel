@@ -7,7 +7,7 @@
 .navBar{
     display: flex;
     background: rgb(3, 3, 36);
-    padding: 15px 100px;
+    padding: 5px 134px !important;
 }
 #logomarvel{
     height: 26px;
@@ -17,13 +17,15 @@
     color: gray;
     display: flex;
     justify-content: space-between;
-    padding: 5px;
+    padding-top: 10px;
 }
 
 .styleSlider{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
+    margin-top: 30px;
 }
 .styleSlider img{
     width: 80%;
@@ -32,7 +34,7 @@
     display: grid;
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 313px 313px 313px 313px;
-    gap: 10px;
+    gap: 28px;
     justify-content: center;
 }
 #styleBox{
@@ -55,12 +57,13 @@
 .newsBox{
     display: flex;
     flex-direction: column;
+    padding-left: 10px;
 }
 #intensamentePic{
     height: 35px;
     width: 65px;
 }
-#newsBox1{
+#newsBox1 {
     display: flex;
 }
 .box1{
@@ -90,4 +93,16 @@
 .box7{
     grid-column: 1/2;
     grid-row: 4;
+}
+.box8{
+    grid-column: 3/4;
+    grid-column: 1;
+    padding-top: 20px;
+}
+#styleh3{
+    padding-top: 10px;
+}
+.styleFooter img{
+    width: 100%;
+    margin-top: 30px;
 }
