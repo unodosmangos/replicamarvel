@@ -6,28 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook Login Replica</title>
     <link rel="stylesheet" href="assets3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets3/css/style.css">
 </head>
-<body>
-    <nav class="navbar bg-light">
+<body class="bgLogin">
+    <nav class="navbar p-5">
         <div class="container-fluid d-md-none">
           <a class="navbar-brand" href="#">
             <img src="assets3/fblogo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
           </a>
         </div>
-      </nav>
-    <div>
+    </nav>
+
+    <div class="container text-center">
+      <div class="w-100">
+        <img class="mainFacebook" src="assets3/facebook.svg" alt="">
+      </div>
+
+      <div class="border border-light rounded shadow p-3 mb-5 bg-body">
+        <div class="m-3 mt-4 mb-4">
+          <h6 class="text-center h6_1">Log Into Facebook</h6>
+          <div class="mb-2 mt-0 w-50">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email of phone number">
+          </div>
+          <div class="mb-2 w-50">
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+          </div>
+          <div>
+            <button class="btn btn-primary w-25" type="submit">Log In</button>
+          </div>
         <div>
-            <img src="assets3/facebook.svg" alt="">
-        </div>
+      </div>
+
     </div>
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
     <script src="assets3/js/bootstrap.bundle.js"></script>
 </body>
 </html>
