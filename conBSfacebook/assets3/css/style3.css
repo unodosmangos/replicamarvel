@@ -1,0 +1,24 @@
+.mainFacebook{
+    width: 25%;
+}
+.styleForm{
+    margin-bottom: 7%;
+}
+.h6_1{
+    font-size: larger;
+}
+.bgLogin{
+    background: #f0f2f5;
+}
+.secondForms{
+    font-size: 75%;
+    font-family: inherit;
+    color: #1877f2;
+}
+.stylefbfooter{
+    padding-top: 15%;
+}
+.footertextStyle{
+    color: #737373;
+}
+/*revisar los css a ver si se pueden reemplazar con Bootstrap*/
