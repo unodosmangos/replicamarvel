@@ -41,7 +41,7 @@
 
 .textoPrincipal{
     margin-left: 15.9%;
-    margin-top: 8.2%;
+    padding-bottom: 42%;
 }
 .formBox2{
     margin-left: 14%;
@@ -69,4 +69,16 @@
     font-size: 14px;
     margin-top: 3.4%;
     margin-left: 22%;
+}
+.stylefbfooter2{
+    font-size: smaller !important;
+}
+.footerPosition{
+    margin-left: 11%;
+    margin-right: 11%;
+}
+.footerButton{
+    border: 1px solid gray;
+    font-size: 9px;
+
 }
