@@ -1,0 +1,84 @@
+.mainFacebook{
+    width: 240px;
+}
+.styleForm{
+    margin-bottom: 7%;
+}
+.formBox{
+    margin-left: 32%;
+    margin-right: 32%;
+}
+.h6_1{
+    font-size: 18px;
+    font-weight: 400;
+}
+.inputStyle{
+    height: 54px;
+    border: 1px solid #dddfe2;
+    margin-bottom: 5px;
+}
+.loginStyle{
+    height: 50px;
+    padding-top: 10px !important;
+}
+.bgLogin{
+    background: #f0f2f5;
+}
+.secondForms{
+    font-size: 13px;
+    font-family: inherit;
+    color: #1877f2;
+}
+.stylefbfooter{
+    padding-top: 15%;
+}
+.footertextStyle{
+    color: #737373;
+}
+
+
+/* Lo que sigue es de la segunda pagina */
+
+.textoPrincipal{
+    margin-left: 15.9%;
+    padding-bottom: 42%;
+}
+.formBox2{
+    margin-left: 14%;
+    margin-right: 20%;
+}
+.mainBox{
+    padding-top: 7.7%;
+    height: 100vh !important;
+}
+.mainFacebook2{
+    height: 106px;
+}
+.texto1{
+    font-size: 28px !important;
+    margin-top: 0;
+    margin-left: 5.7%;
+}
+.loginStyle2{
+    height: 50px;
+    padding-top: 10px !important;
+    background: #42b72a !important;
+    border: none !important;
+}
+.texto2{
+    font-size: 14px;
+    margin-top: 3.4%;
+    margin-left: 22%;
+}
+.stylefbfooter2{
+    font-size: smaller !important;
+}
+.footerPosition{
+    margin-left: 11%;
+    margin-right: 11%;
+}
+.footerButton{
+    border: 1px solid gray;
+    font-size: 9px;
+
+}
